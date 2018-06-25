@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_background" />
+
+
+    <Button
+        android:id="@+id/buttonMerah"
+        style="@style/ButtonText"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:background="@drawable/button_merah"
+        android:text="@string/merah" />
+
+    <Button
+        android:id="@+id/buttonBiru"
+        style="@style/ButtonText"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonMerah"
+        android:background="@drawable/button_biru"
+        android:text="@string/biru" />
+
+    <Button
+        android:id="@+id/buttonUngu"
+        style="@style/ButtonText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonBiru"
+        android:background="@drawable/button_ungu"
+        android:text="@string/ungu" />
+
+    <Button
+        android:id="@+id/buttonHijau"
+        style="@style/ButtonText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonUngu"
+        android:background="@drawable/button_hijau"
+        android:text="@string/hijau" />
+
+    <Button
+        android:id="@+id/buttonOranye"
+        style="@style/ButtonText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonHijau"
+        android:background="@drawable/bbutton_orange"
+        android:text="@string/oranye" />
+
+    <Button
+        android:id="@+id/buttonHitam"
+        style="@style/ButtonText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonOranye"
+        android:background="@drawable/button_hitam"
+        android:text="@string/hitam" />
+
+</RelativeLayout>
